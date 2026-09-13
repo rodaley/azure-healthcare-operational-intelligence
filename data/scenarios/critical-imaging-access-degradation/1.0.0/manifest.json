@@ -1,0 +1,118 @@
+{
+  "scenarioDefinitionId": "critical-imaging-access-degradation",
+  "name": "Critical Imaging Access Degradation",
+  "version": "1.0.0",
+  "initiatingCondition": "Latency and connection exhaustion affecting the synthetic imaging database.",
+  "isPrimary": true,
+  "facilities": [
+    "Contoso Regional Medical Center",
+    "Contoso North Hospital",
+    "Contoso West Emergency Center"
+  ],
+  "healthcareCapabilities": [
+    "Diagnostic Image Access",
+    "Radiology Interpretation Workflow",
+    "Imaging Report Distribution",
+    "Cross-Facility Image Exchange"
+  ],
+  "expectedOutcomes": {
+    "signalCount": 175,
+    "actionableIncidentCount": 1,
+    "delayedImagingTransactionCount": 27,
+    "delayedImagingReportCount": 8,
+    "failedImageRetrievalJourneyCount": 2,
+    "potentiallyAffectedFacilityCount": 3
+  },
+  "scenes": [
+    {
+      "id": "healthcare-monitoring-challenge",
+      "order": 0,
+      "title": "Healthcare Monitoring Challenge",
+      "description": "Establish the fragmented monitoring problem across Contoso Regional Health."
+    },
+    {
+      "id": "unified-operational-view",
+      "order": 1,
+      "title": "Unified Operational View",
+      "description": "Show the unified observability map connecting infrastructure to healthcare capabilities."
+    },
+    {
+      "id": "critical-imaging-incident-begins",
+      "order": 2,
+      "title": "Critical Imaging Incident Begins",
+      "description": "The synthetic imaging database experiences latency and connection exhaustion."
+    },
+    {
+      "id": "signal-proliferation",
+      "order": 3,
+      "title": "Signal Proliferation",
+      "description": "175 related signals are generated across monitoring sources."
+    },
+    {
+      "id": "alert-correlation",
+      "order": 4,
+      "title": "Alert Correlation",
+      "description": "Signals are correlated into a single actionable incident."
+    },
+    {
+      "id": "dependency-mapping",
+      "order": 5,
+      "title": "Dependency Mapping",
+      "description": "Show the technical dependency chain from infrastructure to healthcare capability."
+    },
+    {
+      "id": "potential-workflow-impact",
+      "order": 6,
+      "title": "Potential Workflow Impact",
+      "description": "Identify potentially affected facilities and healthcare capabilities."
+    },
+    {
+      "id": "ai-investigation",
+      "order": 7,
+      "title": "AI Investigation",
+      "description": "The Executive Copilot explains the incident using grounded evidence."
+    },
+    {
+      "id": "human-validation",
+      "order": 8,
+      "title": "Human Validation",
+      "description": "A human validates the potential healthcare workflow impact."
+    },
+    {
+      "id": "remediation-approval",
+      "order": 9,
+      "title": "Remediation Approval",
+      "description": "A human approves simulated remediation."
+    },
+    {
+      "id": "recovery-validation",
+      "order": 10,
+      "title": "Recovery Validation",
+      "description": "Recovery of the affected synthetic workflows is validated."
+    },
+    {
+      "id": "tool-rationalization",
+      "order": 11,
+      "title": "Tool Rationalization",
+      "description": "Review the monitoring tool rationalization recommendations."
+    },
+    {
+      "id": "production-readiness",
+      "order": 12,
+      "title": "Production Readiness",
+      "description": "Review production readiness across technical, healthcare operations, security, and governance categories."
+    },
+    {
+      "id": "executive-summary",
+      "order": 13,
+      "title": "Executive Summary",
+      "description": "Summarize the incident, response, and outcome for an executive audience."
+    },
+    {
+      "id": "reset",
+      "order": 14,
+      "title": "Reset",
+      "description": "Reset the scenario so the demonstration can be repeated."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "facilities": [
+    {
+      "id": "contoso-regional-medical-center",
+      "name": "Contoso Regional Medical Center",
+      "type": "Acute care hospital"
+    },
+    {
+      "id": "contoso-north-hospital",
+      "name": "Contoso North Hospital",
+      "type": "Regional hospital"
+    },
+    {
+      "id": "contoso-west-emergency-center",
+      "name": "Contoso West Emergency Center",
+      "type": "Emergency care center"
+    }
+  ],
+  "departments": [
+    { "id": "emergency-department", "name": "Emergency Department" },
+    { "id": "radiology", "name": "Radiology" },
+    {
+      "id": "clinical-operations-command-center",
+      "name": "Clinical Operations Command Center"
+    },
+    { "id": "inpatient-clinical-services", "name": "Inpatient Clinical Services" }
+  ],
+  "healthcareCapabilities": [
+    { "id": "diagnostic-image-access", "name": "Diagnostic Image Access" },
+    {
+      "id": "radiology-interpretation-workflow",
+      "name": "Radiology Interpretation Workflow"
+    },
+    { "id": "imaging-report-distribution", "name": "Imaging Report Distribution" },
+    {
+      "id": "cross-facility-image-exchange",
+      "name": "Cross-Facility Image Exchange"
+    },
+    { "id": "virtual-care-delivery", "name": "Virtual Care Delivery" },
+    { "id": "patient-access-services", "name": "Patient Access Services" },
+    { "id": "clinical-integration-services", "name": "Clinical Integration Services" }
+  ]
+}
